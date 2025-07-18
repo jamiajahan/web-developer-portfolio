@@ -183,8 +183,23 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     .skills-container, 
     .resume-container, 
     footer, 
+    .banner,
+    nav, 
+    nav > ul,
     .about-items{
         flex-direction: column;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-portfolio-pic{
+        width: 100%;
+    }
+    .header{
+        background-image: none;
     }
     footer, .about{
         padding: 20px;
